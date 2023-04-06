@@ -1,18 +1,19 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/FooterDiv/Footer";
+import Cardss from "../components/Cardss";
 
-function Layout() {
+
+
+
+function Evenement() {
   return (
     <div>
-      <Navbar />
-      <main>
-        <Outlet />
-      </main>
+      <Navbar/>  
+      <Cardss/>
       <Footer/>
     </div>
   );
 }
 
-export default Layout;
+export default Evenement;
