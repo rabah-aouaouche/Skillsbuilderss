@@ -2,12 +2,20 @@ import React from 'react'
 
 // Icons Importées:
 import {BiTimeFive} from 'react-icons/bi'
-import Single from '../../assets/Single.png'
+import JS from '../../assets/JS.avif'
+import Dol from '../../assets/DOL.avif'
+import Ana from '../../assets/ANA.avif'
+import Wor from '../../assets/WOR.jpg'
+import Devv from '../../assets/DEVV.avif'
+
+
+
 // Pour toutes les formations:
 const Data = [
     {
         id:1,
         Titre:'Business Analyst',
+        image: Dol ,
         Temps_res: 'J-12',
         Durée:'À plein temps : 12 mois',
         Desc: 'Diplôme de niveau 6 (bac +3/4)',
@@ -16,6 +24,7 @@ const Data = [
     {
         id:2,
         Titre:'Integrateur Web',
+        image: Wor,
         Temps_res: '1 Mois',
         Durée:'À plein temps : 12 mois',
         Desc: 'Diplôme de niveau 6 (bac +3/4)',
@@ -24,6 +33,25 @@ const Data = [
     {
         id:3,
         Titre:'Technicien Informatique',
+        image: JS,
+        Temps_res: 'J-12',
+        Durée:'À plein temps : 9 mois',
+        Desc: 'Diplôme de niveau 5 (bac +2)',
+        Prix:'500',
+    },
+    {
+        id:6,
+        Titre:'Développeur WordPress',
+        image: Ana,
+        Temps_res: 'J-25',
+        Durée:'Remote : 6 mois',
+        Desc: 'Diplôme de niveau 5 (bac +2)',
+        Prix:'550',
+    },
+    {
+        id:3,
+        Titre:'Technicien Informatique',
+        image: Devv,
         Temps_res: 'J-12',
         Durée:'À plein temps : 9 mois',
         Desc: 'Diplôme de niveau 5 (bac +2)',
@@ -31,12 +59,14 @@ const Data = [
     },
     {
         id:3,
-        Titre:'Développeur WordPress',
-        Temps_res: 'J-25',
-        Durée:'Remote : 6 mois',
+        Titre:'Teste Logiciel',
+        image: JS,
+        Temps_res: 'J-12',
+        Durée:'À plein temps : 9 mois',
         Desc: 'Diplôme de niveau 5 (bac +2)',
-        Prix:'550',
+        Prix:'500',
     },
+
 ]
 
 const Formation = () => {
@@ -44,10 +74,10 @@ const Formation = () => {
     <div>
         <div className='formationContainer flex gap-10 justify-center flex wrap items-center py-10 max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
             {
-                Data.map(({id,Titre,Temps_res,Durée,Desc,Prix}) =>{
+                Data.map(({id,image,Titre,Temps_res,Durée,Desc,Prix}) =>{
                     return (
-                        <div key={id} className='group group/items singleFormation border-[1px] w-[250px] p-[20px] bg-white rounded [10px] hover:bg-[#00df9a] shadow-lg shadow-greyIsh-400/700 hover:shadow-lg'>
-                             <img src={Single} alt="" />
+                        <div key={id} className='group group/items singleFormation border-[1px] w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-[#00df9a] shadow-lg shadow-greyIsh-400/700 hover:shadow-lg'>
+                             <img src={image} alt="" className='rounded-[10px] w-[250px] h-[220px] ' />
                              <span className='flex justify-between items-center gap-4'>
                                  <h1 className='text-[16px] font-semibold text-textcolor group-hover:text-white'>{Titre}</h1>
                                 <span className='flex items-center text-[#ccc] text-[20px] gap-1'>
