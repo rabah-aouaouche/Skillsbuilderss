@@ -14,10 +14,18 @@ const Navbar = () => {
         SkillsBuilders.
       </h1>
       <ul className="hidden md:flex">
-        <li className="p-4"><Link to="/Formations">Formation</Link></li>
-        <li className="p-4"><Link to="/Evenement">Evenement</Link></li>
-        <li className="p-4">Accueil</li>
-        <li className="p-4">Calendrier</li>
+        <li className="p-4">
+          <Link to="/Formations">Formation</Link>
+        </li>
+        <li className="p-4">
+          <Link to="/Evenement">Evenement</Link>
+        </li>
+        <li className="p-4 text-[#00df9a]">
+          <Link to="/">Accueil</Link>{" "}
+        </li>
+        <li className="p-4">
+          <Link to="/Calendrier">Calendrier</Link>
+        </li>
         <li className="p-4">Carrières </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">

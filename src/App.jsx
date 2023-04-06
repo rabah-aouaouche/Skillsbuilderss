@@ -1,46 +1,29 @@
-// import {
-//   createBrowserRouter,
-//   createRoutesFromElements,
-//   RouterProvider,
-//   Route,
-// } from "react-router-dom";
-
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Layout from "./Layouts/layout";
 import Formations from "./pages/Formations";
 import Evenement from "./pages/Evenement";
-
+import Calendrier from "./pages/Calendrier";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
+    element: <Home />,
   },
   {
-    path:"/Formations",
-    element : <Formations/>
+    path: "/Formations",
+    element: <Formations />,
   },
   {
     path: "/Evenement",
-    element: <Evenement/>
-  }
-
+    element: <Evenement />,
+  },
+  {
+    path: "/Calendrier",
+    element: <Calendrier />,
+  },
 ]);
-// const router = createBrowserRouter(
-//   createRoutesFromElements(
-//     <Route path="/" element={<Layout />}>
-
-//       <Route index element={<Home />} />
-//       <Route path="/Formations" element={<Formations />} />
-
-//     </Route>
-//   )
-// );
 
 function App() {
   return <RouterProvider router={router} />;
