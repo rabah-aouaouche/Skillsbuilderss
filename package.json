@@ -11,6 +11,7 @@
   "dependencies": {
     "@syncfusion/ej2-react-schedule": "^21.1.38",
     "@syncfusion/ej2-schedule": "^21.1.38",
+    "daisyui": "^2.51.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",

@@ -7,6 +7,7 @@ import Cards from "../components/cards";
 import Navbar from "../components/Navbar";
 import Footer from "../components/FooterDiv/Footer";
 import Hero from "../components/Hero";
+import Avis from "../components/Avis";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Skills />
       <Newsletter />
       <Cards />
+      <Avis />
       <Footer />
     </div>
   );
