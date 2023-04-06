@@ -19,22 +19,13 @@ const router = createBrowserRouter([
   },
   {
     path: "/Evenement",
-<<<<<<< HEAD
     element: <Evenement/>
-  },
-
-
-]);
-
-=======
-    element: <Evenement />,
   },
   {
     path: "/Calendrier",
     element: <Calendrier />,
   },
 ]);
->>>>>>> 8b2c4038f4a670cd5008e3c0055b70928b63c546
 
 function App() {
   return <RouterProvider router={router} />;
