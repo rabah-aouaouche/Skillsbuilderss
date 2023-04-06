@@ -13,15 +13,15 @@ const Cards = () => {
             src={Single}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Single User</h2>
+          <h2 className="text-2xl font-bold text-center py-8">3 Mois</h2>
           <p className="text-center text-4xl font-bold">$149</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8 ">500GB Storage</p>
-            <p className="py-2 border-b mx-8 ">1 grandted User</p>
-            <p className="py-2 border-b mx-8 "> Send up to 2 GB</p>
+            <p className="py-2 border-b mx-8 mt-8 ">Front-end</p>
+            <p className="py-2 border-b mx-8 ">HTML/ CSS/ JAVASCRIPT</p>
+            <p className="py-2 border-b mx-8 "> Dev front-end</p>
           </div>
           <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto  px-6 py-3 ">
-            Start Trial
+            Je Me Lance
           </button>
         </div>
         <div className="w-fill shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
@@ -30,15 +30,15 @@ const Cards = () => {
             src={Double}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Double User</h2>
+          <h2 className="text-2xl font-bold text-center py-8">6 Mois</h2>
           <p className="text-center text-4xl font-bold">$200</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8 ">500GB Storage</p>
-            <p className="py-2 border-b mx-8 ">1 grandted User</p>
-            <p className="py-2 border-b mx-8 "> Send up to 2 GB</p>
+            <p className="py-2 border-b mx-8 mt-8 ">Back-end</p>
+            <p className="py-2 border-b mx-8 ">Node.js/ Express/ DataBase</p>
+            <p className="py-2 border-b mx-8 "> Dev backend</p>
           </div>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 ">
-            Start Trial
+            Je Me Lance
           </button>
         </div>
         <div className="w-fill shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
@@ -47,15 +47,15 @@ const Cards = () => {
             src={Triple}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Multiple User</h2>
-          <p className="text-center text-4xl font-bold">$250</p>
+          <h2 className="text-2xl font-bold text-center py-8">12 mois</h2>
+          <p className="text-center text-4xl font-bold">$300</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8 ">500GB Storage</p>
-            <p className="py-2 border-b mx-8 ">1 grandted User</p>
-            <p className="py-2 border-b mx-8 "> Send up to 2 GB</p>
+            <p className="py-2 border-b mx-8 mt-8 ">Full-stack</p>
+            <p className="py-2 border-b mx-8 ">Front et back-end </p>
+            <p className="py-2 border-b mx-8 "> Dev full-stack</p>
           </div>
           <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto  px-6 py-3 ">
-            Start Trial
+            Je Me Lance
           </button>
         </div>
       </div>

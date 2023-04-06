@@ -11,13 +11,13 @@ const Skills = () => {
             Des compétences d'aujourd’hui qui ont de l'avenir
           </p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            javascript is the heeell
+            Trouvez la formation qui vous correspond
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            quisquam a quaerat esse quo! Et, expedita nulla asperiores iure
-            libero, atque, sunt fugiat ullam deleniti delectus eos. Quam, ab
-            dolor?
+            Faites un grand pas vers votre nouvelle carrière en décrochant une
+            certification reconnue. Notre différence ? Une école 100% en ligne
+            et un modèle pédagogique unique qui seront les clés de votre
+            réussite.
           </p>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3  ">
             Get Started

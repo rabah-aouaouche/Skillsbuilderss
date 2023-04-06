@@ -6,9 +6,10 @@ const Newsletter = () => {
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 ">
         <div className="lg:col-span-2 my-4">
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            Want tips & tricks to optimizz your flow
+            Voulez-vous des astuces et des conseils pour optimiser votre niveau
+            ?
           </h1>
-          <p>Sign up to our newsletter and stay up to date.</p>
+          <p>Inscrivez-vous à notre newsletter et restez à jour.</p>
         </div>
         <div className="my-4">
           <div className="flex flex-col sm:flex-row items-center justify-between w-full">
@@ -22,8 +23,8 @@ const Newsletter = () => {
             </button>
           </div>
           <p>
-            We care bout the protection of your data. Read our{" "}
-            <span className="text-[#00df9a]">privacy Policy</span>
+            Nous attachons de l'importance à la protection de vos données. Lisez
+            notre <span className="text-[#00df9a]">privacy Policy</span>
           </p>
         </div>
       </div>
